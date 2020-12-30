@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "gamedevice/portals/portal10b"
+	"$surfaceprop" "concrete"
+	"%compileNoLight" "1"
+	"Proxies" { "ToggleTexture" { "toggleTextureVar" "$baseTexture" "toggleTextureFrameNumVar" "$frame" "toggleTextureShouldWrap" "0" } }
+}

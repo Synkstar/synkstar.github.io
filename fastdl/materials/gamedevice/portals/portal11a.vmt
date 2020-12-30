@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "gamedevice/portals/portal11a"
+	"$surfaceprop" "concrete"
+	"%compileNoLight" "1"
+}
