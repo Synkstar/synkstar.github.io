@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: open sans, sans-serif;
+    color: #fff
+}
+
+.wrap {
+    margin: 0 !important
+}
+
+.content .container {
+    text-align: center;
+    background: rgba(0, 0, 0, .6) !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 15px #000;
+    width: 75%;
+    margin: auto;
+    padding: auto
+}
