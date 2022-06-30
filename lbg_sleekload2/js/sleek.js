@@ -25,7 +25,7 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 	setGamemode(gamemode);
 	setMapname(mapname);
 
-	if (!l_serverName) {
+	if (!l_serverName && !l_serverImage) {
 		setServerName(servername);
 	}
 }
