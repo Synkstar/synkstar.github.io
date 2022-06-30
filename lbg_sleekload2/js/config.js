@@ -9,12 +9,12 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "";
-//var l_serverImage = "images/logo.png";
+//var l_serverImage = "";
+var l_serverImage = "images/lbg_logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "[LFG] 24/7 TTT Minecraft B5";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -23,6 +23,7 @@ var l_bgVideo = true;
 /*Video background
 Avaiable options:
 "backgrounds/videos/singularity.webm"
+"backgrounds/videos/redstone.webm"
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */

@@ -25,7 +25,7 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 	setGamemode(gamemode);
 	setMapname(mapname);
 
-	if (!l_serverName && !l_serverImage) {
+	if (!l_serverName) {
 		setServerName(servername);
 	}
 }
@@ -121,9 +121,11 @@ $(function() {
 	if (l_serverName && !l_serverImage)
 		setServerName(l_serverName);
 
-	if (l_serverImage)
-		setServerName("<img src='"+l_serverImage+"'>");
-
+	if (l_serverImage && !l_serverName)
+		setServerName("<img width=200 height=200 src='"+l_serverImage+"'>");
+	
+	if (l_serverImage && l_serverName)
+		setServerName("<img width=200 height=200 src='"+l_serverImage+"'><br>" + l_serverName);
 	if (l_bgOverlay)
 		$("#overlay").css("background-image", "url('images/overlay.png')");
 
